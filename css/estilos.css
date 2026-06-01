@@ -3,10 +3,10 @@
 }
 
 :root {
-    --primary: #8b6b9e;
+    --primary: #88629e;
     --primary-light: #d4c5e2;
     --primary-dark: #5e4671;
-    --accent: #e8b4d4;
+    --accent: #e7a6ce;
     --accent-light: #f5e6f0;
     --success: #7cb342;
     --success-light: #d9f5d9;
@@ -163,7 +163,7 @@ button:active {
 }
 
 .btn.activo {
-    background: linear-gradient(135deg, var(--accent) 0%, #e085b8 100%);
+    background: linear-gradient(135deg, var(--accent) 0%, #d674ac 100%);
     box-shadow: 0 6px 16px rgba(232, 180, 212, 0.3);
 }
 
