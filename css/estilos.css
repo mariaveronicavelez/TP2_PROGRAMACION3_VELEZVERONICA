@@ -103,15 +103,26 @@ main {
 }
 
 .lista-meriendas li {
+    position: relative;
     background: linear-gradient(135deg, var(--accent-light) 0%, var(--primary-light) 100%);
     border: 2px solid var(--accent);
     border-radius: 12px;
-    padding: 16px;
+    padding: 16px 16px 16px 26px;
     width: calc(50% - 8px);
     color: var(--primary-dark);
     font-weight: 500;
     transition: all 0.3s ease;
     box-shadow: 0 2px 8px rgba(232, 180, 212, 0.15);
+}
+
+.lista-meriendas li::before {
+    content: '•';
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--primary-dark);
+    font-size: 1.2rem;
 }
 
 .lista-meriendas li:hover {

@@ -10,9 +10,9 @@ const listaMeriendas = document.getElementById('lista-meriendas');
 const btnContar = document.getElementById('btn-contar');
 const resultado = document.getElementById('resultado');
 
-const elementosMeriendas = meriendas.map((nombre, index) => {
+const elementosMeriendas = meriendas.map((nombre) => {
     const li = document.createElement('li');
-    li.textContent = `${index + 1}. ${nombre}`;
+    li.textContent = nombre;
     return li;
 });
 
