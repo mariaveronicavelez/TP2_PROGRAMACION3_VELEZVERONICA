@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Listado de Frutas y Verduras</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Listado de Frutas y Verduras</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="destacados.html">Destacados</a>
+            <a href="listados.html">Listado</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Frutas y Verduras Disponibles</h2>
+        <p>A continuación se muestra un listado de frutas y verduras disponibles para hoy:</p>
+
+        <div id="lista-frutas-verduras" class="lista-frutas-verduras"></div>
+
+        <div class="botones">
+            <button id="btn-todas" class="btn">Mostrar todas</button>
+            <button id="btn-frutas" class="btn">Mostrar solo frutas</button>
+        
+        </div>
+
+        <div id="mensaje-filtro"></div>
+        <div id="resultado-frutas-verduras" class="resultado" style="display: none;"></div>
+    </main>
+
+    <footer>
+        <p>Trabajo Práctico 2 - Programación III</p>
+    </footer>
+
+    <script src="js/listados.js"></script>
+    
+</body>
+</html>
